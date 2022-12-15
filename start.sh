@@ -5,7 +5,6 @@ fi
 if test ! -e eula.txt
 then echo "eula=true" > eula.txt
 fi
-fi
 if test ! -e server.properties
 then echo "server-port=34501" > server.properties #for if u wanna have a custom port change 25565 to ur desired port
 fi
